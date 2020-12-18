@@ -2,7 +2,7 @@
 ### Object oriented programming - ex2
 <img src= "images/p1.jpg" width=750 hight=100>
 
-ID : 209304161 NAME : OR TIRAM
+NAME : Hila Wiesel
 
 
 #### This project is a development of game strategy in pokemon game.
