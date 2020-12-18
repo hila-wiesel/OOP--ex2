@@ -15,13 +15,14 @@ Each agent has speed, that raise by eating pokemon, acording to the eaten pokemo
 ## Strategy:
 During development two strategies were examined:
 
-**1.**  Go over the agemts - for each agent  find the closest "profitable" pokemon , the  cheapest one-  that (time to reach him) / (his value) is the lowes.
-        But - if the agent is already on a pokemon dest node - he will set to eat him first.
-              Otherwise, if the agent is already on a pokemon src node - he will set to eat him.
+*  Go over the agemts - for each agent  find the closest "profitable" pokemon , the  cheapest one-  that (time to reach him) / (his value) is the lowes.
+   But - if the agent is already on a pokemon dest node - he will set to eat him first.
+         Otherwise, if the agent is already on a pokemon src node - he will set to eat him.
+       
+*  Go over the pokemons, start with the one who has the highest value, - for each pokemon find the closest "free" (on a node) agent, and send him towards this pokemon.
 
-**2.**  Go over the pokemons, start with the one who has the highest value, - for each pokemon find the closest "free" (on a node) agent, and send him towards this pokemon.
+##### --> After lots of testing for each of the strategy, the chosen strategy is strategy is the first one.
 
-##### --> After lots of testing for each of the strategy, the chosen strategy is strategy number 1.
 
 ## Game arena structure:
 The game running on directed weighted graph.
