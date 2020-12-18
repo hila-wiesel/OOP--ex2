@@ -2,7 +2,7 @@
 ### Object oriented programming - ex2
 <img src= "images/p1.jpg" width=750 hight=100>
 
-NAME : Hila Wiesel
+(c) Hila Wiesel
 
 
 #### This project is a development of game strategy in pokemon game.
@@ -26,9 +26,15 @@ During development two strategies were examined:
 ## Game arena structure:
 The game running on directed weighted graph.
 For this I implemented 3 interfaces:
-* noda_data
+* noda_data - implemented by class [NodeData](https://github.com/<hila-wiesel>/<OOP--ex2>/wiki)
 * directed_weighted_graph
 * dw_graph_algorithms
+
+
+
+
+https://github.com/<hila-wiesel>/<OOP--ex2>/wiki
+
 
 
 
