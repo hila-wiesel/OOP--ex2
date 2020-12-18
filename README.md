@@ -2,7 +2,6 @@
 ### Object oriented programming - ex2
 <img src= "images/p1.jpg" width=750 hight=100>
 
-(c) Hila Wiesel
 
 
 #### This project is a development of game strategy in pokemon game.
@@ -23,6 +22,13 @@ During development two strategies were examined:
 
 ##### --> After lots of testing for each of the strategy, the chosen strategy is strategy is the first one.
 
+## Practical:
+For play the game, I creat few classes:
+* [Arena](https://github.com/hila-wiesel/OOP--ex2/wiki/Arena)
+* [Agent](https://github.com/hila-wiesel/OOP--ex2/wiki/Agent)
+* [Pokemon](https://github.com/hila-wiesel/OOP--ex2/wiki/Pokemon)
+* [Ex2_Client](https://github.com/hila-wiesel/OOP--ex2/wiki/Ex2_Client)
+
 
 ## Game arena structure:
 The game running on directed weighted graph.
@@ -38,7 +44,7 @@ For this I implemented 3 interfaces:
 
 
 
-
+(c) Hila Wiesel
 
 
 
