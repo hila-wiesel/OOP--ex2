@@ -26,14 +26,12 @@ During development two strategies were examined:
 ## Game arena structure:
 The game running on directed weighted graph.
 For this I implemented 3 interfaces:
-* noda_data - implemented by class [NodeData](https://github.com/<hila-wiesel>/<OOP--ex2>/wiki)
-* directed_weighted_graph
-* dw_graph_algorithms
+* noda_data - implemented by class [NodeData](https://github.com/hila-wiesel/OOP--ex2/wiki/Node-Data)
+* directed_weighted_graph - implemented by class [DWGraph_DS](https://github.com/hila-wiesel/OOP--ex2/wiki/DW%D6%B9Graph_DS)
+* dw_graph_algorithms - implemented by class [DWGraph_Algo](https://github.com/hila-wiesel/OOP--ex2/wiki/DWGraph_Algo)
 
 
 
-
-https://github.com/<hila-wiesel>/<OOP--ex2>/wiki
 
 
 
