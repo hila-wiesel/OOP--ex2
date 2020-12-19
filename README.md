@@ -24,18 +24,18 @@ During development two strategies were examined:
 
 ## Practical:
 For play the game, I creat few classes:
-* [Arena](https://github.com/hila-wiesel/OOP--ex2/wiki/1.Arena)
-* [Agent](https://github.com/hila-wiesel/OOP--ex2/wiki/1. Agent)
-* [Pokemon](https://github.com/hila-wiesel/OOP--ex2/wiki/1. Pokemon)
-* [Ex2](https://github.com/hila-wiesel/OOP--ex2/wiki/1. Ex2)
+* [Arena](https://github.com/hila-wiesel/OOP--ex2/wiki/1.-Arena)
+* [Agent](https://github.com/hila-wiesel/OOP--ex2/wiki/1.-Agent)
+* [Pokemon](https://github.com/hila-wiesel/OOP--ex2/wiki/1.-Pokemon)
+* [Ex2](https://github.com/hila-wiesel/OOP--ex2/wiki/1.-Ex2)
 
 
 ## Game arena structure:
 The game running on directed weighted graph.
 For this I implemented 3 interfaces:
-* noda_data - implemented by class [NodeData](https://github.com/hila-wiesel/OOP--ex2/wiki/2. Node-Data)
-* directed_weighted_graph - implemented by class [DWGraph_DS](https://github.com/hila-wiesel/OOP--ex2/wiki/2. DW%D6%B9Graph_DS)
-* dw_graph_algorithms - implemented by class [DWGraph_Algo](https://github.com/hila-wiesel/OOP--ex2/wiki/2. DWGraph_Algo)
+* noda_data - implemented by class [NodeData](https://github.com/hila-wiesel/OOP--ex2/wiki/2.-Node-Data)
+* directed_weighted_graph - implemented by class [DWGraph_DS](https://github.com/hila-wiesel/OOP--ex2/wiki/2.-DW%D6%B9Graph_DS)
+* dw_graph_algorithms - implemented by class [DWGraph_Algo](https://github.com/hila-wiesel/OOP--ex2/wiki/2.-DWGraph_Algo)
 
 
 
