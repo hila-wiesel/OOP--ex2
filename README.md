@@ -27,7 +27,7 @@ For play the game, I creat few classes:
 * [Arena](https://github.com/hila-wiesel/OOP--ex2/wiki/Arena)
 * [Agent](https://github.com/hila-wiesel/OOP--ex2/wiki/Agent)
 * [Pokemon](https://github.com/hila-wiesel/OOP--ex2/wiki/Pokemon)
-* [Ex2_Client](https://github.com/hila-wiesel/OOP--ex2/wiki/Ex2_Client)
+* [Ex2](https://github.com/hila-wiesel/OOP--ex2/wiki/Ex2_Client)
 
 
 ## Game arena structure:
