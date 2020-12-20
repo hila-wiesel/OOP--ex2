@@ -2,6 +2,7 @@ package gameClient;
 
 import Server.Game_Server_Ex2;
 import api.*;
+import org.junit.platform.commons.util.StringUtils;
 
 import javax.swing.*;
 import java.util.*;
@@ -23,13 +24,24 @@ public class Ex2 implements Runnable{
 		Thread client = new Thread(new Ex2());
 		client.start();
 
-
 	}
 	
 	@Override
 	public void run() {
 		String idNum= JOptionPane.showInputDialog("Please enter id: ");
+		while (!isNumeric(idNum) || idNum.length() !=9 ){
+			if(idNum.length() != 9) {
+				idNum = JOptionPane.showInputDialog("Invalid length!\n Please enter id: ");
+			}
+			if (!isNumeric(idNum) ) {
+				idNum = JOptionPane.showInputDialog("Illegal id. Please enter only digits: ");
+			}
+		}
 		String level= JOptionPane.showInputDialog("Please enter level: ");
+		while (!isNumeric(level)) {
+			level = JOptionPane.showInputDialog("Illegal level number. Please enter only digits:");
+		}
+
 		int level_number = Integer.parseInt(level);
 		game_service game = Game_Server_Ex2.getServer(level_number);
 		int id = Integer.parseInt(idNum);
@@ -278,6 +290,15 @@ public class Ex2 implements Runnable{
 		_win.setSize(1000, 700);
 		_win.update(_ar);
 		_win.show();
+	}
+
+	public static boolean isNumeric(String str) {
+		try {
+			Integer.parseInt(str);
+			return true;
+		} catch(NumberFormatException e){
+			return false;
+		}
 	}
 
 
